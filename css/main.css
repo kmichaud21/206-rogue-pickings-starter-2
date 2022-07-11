@@ -19,6 +19,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    
 }
 
 h1,
@@ -34,7 +35,8 @@ h3 {
     
 }
 h1 {
-	font-size: 30px;
+	font-size: 39px;
+    width: 100%;
 }
 h2 {
 	font-size: 18px;
@@ -55,8 +57,8 @@ p {
 /*The widths are in a percentage!*/
 header {
 	
-	border-bottom: 3px solid #77a466;
-	margin: 0 auto;
+	border-bottom: 3px  solid #77a466;
+    margin: 10 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,7 +68,8 @@ header {
 
 header h1 {
 	
-	margin: 0;
+	margin: 10%;
+    padding: 
 	
 }
 header h1 span {
@@ -74,30 +77,45 @@ header h1 span {
 }
 
 header nav {
-	
 	padding: 46px 0;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     
     
+    
  
 }
 header nav ul {
-	margin: 0;
-	padding: 30;
+	margin: 3px;
+	padding: 5px;
+    width: 100%;
+    
+    
+    
     
 }
 header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
-	font-size: 14px;
+	font-size: 16px;
 	padding: 10 10px;
+    list-style: none;
+    padding-left: 30%;
+    margin-top: 30px;
+    
+    
+    
+    
+    
+    
 	
 }
 header nav ul li a{
 	text-decoration: none;
 	color:#77a466;
+    
 }
 
 /*The widths are in a percentage!*/
@@ -201,7 +219,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-    
+    width: 100%;
     
     
 }
